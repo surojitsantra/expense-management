@@ -15,7 +15,7 @@ const ExpenseItem = (props) => {
           console.log("clicked");
         }}
       >
-        Change Title
+        Delete
       </button>
     </Card>
   );

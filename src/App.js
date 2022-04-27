@@ -12,7 +12,7 @@ const App = () => {
     };
 
     setNewExpenses((prevState) => {
-      return [...prevState, newExpense];
+      return [newExpense, ...prevState];
     });
   };
 

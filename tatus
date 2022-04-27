@@ -1,0 +1,12 @@
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex 507e1e9..d8268d3 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -2,6 +2,7 @@[m [mimport Data from "./components/data/Data";[m
+ import Expenses from "./components/Expenses/Expenses";[m
+ import NewExpense from "./components/NewExpense/NewExpense";[m
+ import React from "react";[m
+[32m+[m
+ const App = () => {[m
+   const [expenses, setNewExpenses] = React.useState(Data);[m
+ [m
